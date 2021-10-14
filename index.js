@@ -5,6 +5,10 @@ const fs = require('fs');
 const generateMarkdown = require('./generateMarkdown');
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
+
+
+
+
 const questions = [
     {
         name: "title",
@@ -104,6 +108,12 @@ const questions = [
     },
 ];
 
+
+function writeToFile (fileName, data) {
+  fs.writeFile(fileName, `${data}`, (err) => {
+    err ? console.log(err) : console.log("It works")
+  })
+}
 
 
 function init() {

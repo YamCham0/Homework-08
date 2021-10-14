@@ -14,54 +14,54 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `
   
-  # ${data.title}
+# ${data.title}
   
-  ## Description
+## Description
 
-  -${data.desc1}
-  -${data.desc2}
-  -${data.desc3}
-  -${data.desc4}
+-${data.desc1}
+-${data.desc2}
+-${data.desc3}
+-${data.desc4}
 
 
-  ## Table of Contents (Optional)
+## Table of Contents (Optional)
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
   
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Credits](#credits)
-  - [License](#license)
+## Installation
+-${data.install}
   
-  ## Installation
-  -${data.install}
+## Usage
+-${data.usage}
+
+## Credits
+-[${data.collaborator}](${data.collaborator_url})
   
-  ## Usage
-  -${data.usage}
-
-  ## Credits
-  -[${data.collaborator}](${data.collaborator_url})
+-${data.asset}(${data.asset_url})
   
-  -${data.asset}(${data.asset_url})
+-${data.tutorials}
   
-  -${data.tutorials}
+## License
+
+-${data.license}
+
+## Badges
+
+
+## Features
+
+-${data.features}
   
-  ## License
+## How to Contribute
 
-  -${data.license}
+-${data.contribute}
 
-  ## Badges
+## Tests
 
-
-  ## Features
-
-  -${data.features}
-  
-  ## How to Contribute
-
-  -${data.contribute}
-
-  ## Tests
-
-  -${data.test}
+-${data.test}
 
 
 
