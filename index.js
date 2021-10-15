@@ -65,7 +65,6 @@ const questions = [
         name: "collaborate_YN",
         type: "confirm",
         message: "Did you work with others on this project?"
-        choices: 'Y/N'
       },
       {
         name: "collaborators",
@@ -113,7 +112,7 @@ const questions = [
 function writeToFile (fileName, data) {
 
   fs.writeFile(fileName, `${data}`, (err) => {
-    err ? console.log(err) : console.log("It works")
+    err ? console.log(err) : console.log("It's Alive!!!")
   })
 }
 
@@ -129,18 +128,5 @@ inquirer
 };
 
 
-// function renderLicenseLink(license) {}
 
-// // TODO: Create a function that returns the license section of README
-// // If there is no license, return an empty string
-// function renderLicenseSection(license) {}
-
-// // TODO: Create a function to generate markdown for README
-// function generateMarkdown(data) {
-//   return `# ${data.title}
-
-// `;
-// }
-
-// module.exports = generateMarkdown;
 init()
