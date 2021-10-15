@@ -54,7 +54,7 @@ const questions = [
       {
         name: "contribute",
         type: "input",
-        message: "How can other Devs can contribute to this project?"
+        message: "How can other Devs can contribute to this project?",
       },
       {
         name: "test",
@@ -63,8 +63,9 @@ const questions = [
       },
       {
         name: "collaborate_YN",
-        type: "input",
+        type: "confirm",
         message: "Did you work with others on this project?"
+        choices: 'Y/N'
       },
       {
         name: "collaborators",
@@ -110,6 +111,7 @@ const questions = [
 
 
 function writeToFile (fileName, data) {
+
   fs.writeFile(fileName, `${data}`, (err) => {
     err ? console.log(err) : console.log("It works")
   })
@@ -121,11 +123,9 @@ inquirer
   .prompt(questions)
   .then((answers) => {
       console.log(answers);
-      generateMarkdown(answers);
-  })
-  .then((text) => {
-    writeToFile("README.md", text);
-  })
+      writeToFile("README.md",generateMarkdown(answers));  
+    })
+
 };
 
 
