@@ -24,10 +24,10 @@ function generateMarkdown(data) {
 
 ## Description
 
--${data.desc1}
--${data.desc2}
--${data.desc3}
--${data.desc4}
+ ${data.desc1}
+ ${data.desc2}
+ ${data.desc3}
+ ${data.desc4}
 
 
 ## Table of Contents (Optional)
@@ -38,37 +38,37 @@ function generateMarkdown(data) {
 - [License](#license)
 
 ## Installation
--${data.install}
+ ${data.install}
 
 ## Usage
--${data.usage}
+ ${data.usage}
 
 ## Credits
--${data.collaborator} ${data.collaborator_url}
+ ${data.collaborator} ${data.collaborator_url}
 
--${data.asset} ${data.asset_url}
+ ${data.asset} ${data.asset_url}
 
--${data.tutorials}
+ ${data.tutorials}
 
 ## License
 
--${data.license}
+ ${data.license}
 
 ## Badges
 
--${license}
+ ${license}
 
 ## Features
 
--${data.features}
+ ${data.features}
 
 ## How to Contribute
 
--${data.contribute}
+ ${data.contribute}
 
 ## Tests
 
--${data.test}
+ ${data.test}
 
 
 

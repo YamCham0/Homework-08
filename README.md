@@ -1,13 +1,13 @@
 
   
-# lh
+# Readme Generator
 
 ## Description
 
--jtrj
--tjtk
--kytk
--tjurfki
+ In order to save time while creating the Readmes in future projects.
+ To create tools that will help us as future developers.
+ Having to refference the docs on how to create Readmes.
+ How to dynamically create a Readme
 
 
 ## Table of Contents (Optional)
@@ -18,37 +18,37 @@
 - [License](#license)
 
 ## Installation
--jikgyk
+ Open it in your code editor and run node index.js.
 
 ## Usage
--kuyhk
+ Answer each question.
 
 ## Credits
--undefined undefined
+ undefined undefined
 
--undefined undefined
+ undefined undefined
 
--no
+ none
 
 ## License
 
--MIT
+ MIT
 
 ## Badges
 
--[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+ [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Features
 
--er
+ N/A
 
 ## How to Contribute
 
--jfg
+ Not open to collabs at this moment, maybe in the future.
 
 ## Tests
 
--jrtf
+ Test
 
 
 
